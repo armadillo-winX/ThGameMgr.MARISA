@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+ï»¿using System.Collections.Generic;
 using System.Windows;
 using ThGameMgr.Ex.Plugin;
 
@@ -6,15 +6,15 @@ namespace ThGameMgr.MARISA
 {
     public class MarisaMain : GameFilesPluginBase
     {
-        public override string Name => "MARISA for “Œ•ûŠÇ§“ƒ EX";
+        public override string Name => "MARISA for æ±æ–¹ç®¡åˆ¶å¡” EX";
 
-        public override string Version => "0.1.0-beta";
+        public override string Version => "0.1.0";
 
-        public override string Developer => "ì‰¹ä”’/“Œ•ûŠÇ§“ƒŠJ”­•”";
+        public override string Developer => "ç éŸ³èŒ‰ç™½/æ±æ–¹ç®¡åˆ¶å¡”é–‹ç™ºéƒ¨";
 
-        public override string Description => "Multi Advanced Replay files Import and Sort Add-on for “Œ•ûŠÇ§“ƒ EX";
+        public override string Description => "Multi Advanced Replay files Import and Sort Add-on for æ±æ–¹ç®¡åˆ¶å¡” EX";
 
-        public override string CommandName => "ƒŠƒvƒŒƒCƒtƒ@ƒCƒ‹‚ÌˆêŠ‡’Ç‰Á(MARISA)";
+        public override string CommandName => "ãƒªãƒ—ãƒ¬ã‚¤ãƒ•ã‚¡ã‚¤ãƒ«ã®ä¸€æ‹¬è¿½åŠ (MARISA)";
 
         public Window? MainWindow { get; set; }
 
