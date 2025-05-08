@@ -31,7 +31,8 @@ namespace ThGameMgr.MARISA
                 { "th15", "Th15" },
                 { "th16", "Th16" },
                 { "th17", "Th17" },
-                { "th18", "Th18" }
+                { "th18", "Th18" },
+                { "th19", "Th19" }
             };
 
         public Dictionary<string, string>? AvailableGameFilesDictionary { get; set; }
